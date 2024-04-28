@@ -14,7 +14,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
+.profilepic{
+  border-radius: 100%;
+}
 p {
   color: rgb(85, 85, 85);
 }
@@ -165,8 +167,8 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  gap: 5rem;
-  height: 80vh;
+  gap: 6rem;
+  
 }
 
 .section__pic-container {
@@ -341,7 +343,10 @@ section {
   gap: 2.5rem;
   justify-content: space-around;
 }
-
+.extradesign{
+  margin-bottom: 20px;
+  
+}
 article {
   display: flex;
   width: 10rem;
@@ -366,8 +371,8 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  max-width: 70%;
+  
 }
 
 .project-title {
@@ -429,4 +434,7 @@ footer {
 
 footer p {
   text-align: center;
+}
+.newdesign{
+  margin-top: 15%;
 }
